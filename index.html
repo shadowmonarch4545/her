@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Letter</title>
+
+    <!-- Google Font for Handwritten Style -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 700px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ff6f61;
+        }
+
+        .message {
+            font-size: 1.2em;
+            margin: 20px 0;
+            line-height: 1.8;
+            color: #444444;
+        }
+
+        .signature {
+            font-size: 1em;
+            color: #888888;
+            margin-top: 20px;
+        }
+
+        .handwritten {
+            font-family: 'Great Vibes', cursive;
+            font-size: clamp(2.2rem, 6vw, 3.4rem);
+            color: #6a3b2e;
+            margin-bottom: 20px;
+        }
+
+        .images {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        .old-paper {
+            background: #fdf0d5;
+            border: 2px solid #e1c699;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #5a3b1d;
+            text-align: left;
+        }
+
+        @media (max-width: 768px) {
+            .title { font-size: 2rem; }
+            .message { font-size: 1rem; }
+            .signature { font-size: 0.9rem; }
+            .images img { width: 30vw; max-width: 120px; }
+            .old-paper { padding: 20px; }
+        }
+
+        @media (max-width: 480px) {
+            .title { font-size: 1.6rem; }
+            .message { font-size: 0.9rem; }
+            .signature { font-size: 0.8rem; }
+            .images img { width: 40vw; max-width: 100px; }
+            .old-paper { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- MUSIC PLAYER ON TOP -->
+        <audio controls autoplay loop>
+            <source src="birthdayS.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="title">Happy Valentine's Day</div>
+
+        <!-- Handwritten Name -->
+        <p class="handwritten">Dear Shanne</p>
+
+        <!-- Short Message -->
+        <div class="message">
+            Wishing you a day filled with love, laughter, and all the things that make you happiest.  
+            You deserve nothing but the best, today and always.
+        </div>
+
+        <!-- Old Paper Section -->
+        <div class="old-paper">
+            <p>
+                Dear Shanne,<br><br>
+                I hope this letter finds you well. I wanted to take a moment to tell you how much you mean to me.
+                Your kindness, wisdom, and warmth have always been a guiding light in my life.  
+                Every memory with you is precious, and I cherish the moments we’ve shared.<br><br>
+
+                On this special day, I wish for you endless happiness, love, and laughter. May all your dreams come true,
+                and may your heart always be full. Thank you for being the amazing person you are. Thank you sa tanan hehe 
+                enugh na sa english speaking mag bisaya nake hehe to be honest i stayed sa imo kay feel nako lahi raka sa uban babae
+                evry time ako e pull up ang topic na about sa ginoo is dili ka laayan and dili ka ma bored sa ako makes me fall for you and 
+                kanang imoha golden charcter na gi pakitah sa ako is like grabe huhu nakak fall evry day makes me reilize na serte ko nimo and i hope
+                this relationship continues to grow stronger and more meaningful. mag dugay ta and you listen to me when you do wrong and maminaw pud ko nimo kung mag kamali ko 
+                we motivate each other and most importantly is we put gos at the center of our relationship i love you shanne so much 
+                sorr if mao rani ako mahatg para sa imo karon valentines day ah but i promise you this i love you so much and i will nerver give up on you 
+                you change me and keep up lang na imoha fire sa ginoo i hope it will never change i hope it will grow stronger this is my love letter for you my love 
+                i like you the moment you change nakita nako ang part sa imoha na maayo and im willing to take a risk na makuha imoha kasing kasing 
+                im willing to do it all as long as you stay with me i love you and have a blessed sunday my love gods feed hehe love you i can wim this life without you !!! <br><br>
+
+                With all my love,<br>
+                Ethan
+            </p>
+        </div>
+
+        <!-- Images -->
+        <div class="images">
+            <img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+        </div>
+
+        <!-- Closing Signature -->
+        <div class="signature">- With love, Ethan</div>
+
+    </div>
+</body>
+</html>
